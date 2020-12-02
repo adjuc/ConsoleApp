@@ -8,7 +8,7 @@ namespace ConsoleAppDemo1
         {
             Console.WriteLine("Hello ConsoleAppDemo1!"); 
             CalculateSumClass C1 = new CalculateSumClass();
-            int sum = C1.Calculate(1,2,3,4,5,6,7,8);
+            int sum = C1.CalculateSumOf8(1,2,3,4,5,6,7,8);
             Console.WriteLine("Sum is " + sum.ToString()); 
         }
     }
