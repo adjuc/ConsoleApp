@@ -12,5 +12,9 @@ namespace ConsoleAppDemo1
         {
             return(v1*v2);
         }
+        public int CalculateDivision(int v1, int d1)
+        {
+            return(v1/d1);
+        }
     }
 }
