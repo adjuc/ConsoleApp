@@ -10,7 +10,8 @@ namespace ConsoleAppDemo1
         }
         public int CalculateProductOf2(int v1, int v2)
         {
-            return(v1*v2);
+            int result = v1 * v2;
+            return(result);
         }
         public int CalculateDivision(int v1, int d1)
         {
