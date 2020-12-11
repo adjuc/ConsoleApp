@@ -11,7 +11,7 @@ namespace ConsoleAppDemo1
             int sum = C1.CalculateSumOf8(1,2,3,4,5,6,7,8);
             Console.WriteLine("This is a hotfix bracnh fixed in commit 4"); 
             Console.WriteLine("This is a hotfix2 branch fixed in commit 5");
-            Console.WriteLine("This is second commit into hotfix2 branch fixed");  
+            Console.WriteLine("This is first commit into hotfix3 branch");  
             Console.WriteLine("Simple sum is " + sum.ToString()); 
             Console.WriteLine("SumClass sum of 10: " + C1.CalculateSumOf10(1,2,3,4,5,6,7,8,9,10).ToString()); 
             ICalculate iCal = new Calculate();
