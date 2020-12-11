@@ -9,6 +9,7 @@ namespace ConsoleAppDemo1
             Console.WriteLine("Hello ConsoleAppDemo1!"); 
             CalculateSumClass C1 = new CalculateSumClass();
             int sum = C1.CalculateSumOf8(1,2,3,4,5,6,7,8);
+            Console.WriteLine("This is a hotfix bracnh fixed in commit 4"); 
             Console.WriteLine("Simple sum is " + sum.ToString()); 
             Console.WriteLine("SumClass sum of 10: " + C1.CalculateSumOf10(1,2,3,4,5,6,7,8,9,10).ToString()); 
             ICalculate iCal = new Calculate();
