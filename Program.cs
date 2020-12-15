@@ -10,7 +10,7 @@ namespace ConsoleAppDemo1
             CalculateSumClass C1 = new CalculateSumClass();
             int sum = C1.CalculateSumOf8(1,2,3,4,5,6,7,8);
             Console.WriteLine("Simple sum is " + sum.ToString()); 
-            Console.WriteLine("SumClass sum of 10: " + C1.CalculateSumOf10(1,2,3,4,5,6,7,8,9,10).ToString()); 
+            Console.WriteLine("SumClass sum of 11: " + C1.CalculateSumOf11(1,2,3,4,5,6,7,8,9,10, 11).ToString()); 
             ICalculate iCal = new Calculate();
             Console.Write("ProductOf2:" + iCal.CalculateProductOf2(2,4).ToString() + "\n");
             Console.Write("ProductOf4:" + iCal.CalculateProductOf4(1,2,3,4).ToString() + "\n");
