@@ -19,7 +19,7 @@ namespace ConsoleAppDemo1
             Console.Write("SumOf9:" + iCal.CalculateSumOf9(1,2,3,4,5,6,7,8,9).ToString() + "\n");
             Console.Write("SumOf10:" + iCal.CalculateSumOf10(1,2,3,4,5,6,7,8,9,10).ToString() + "\n");  
             LongMethodClass lc = new LongMethodClass();
-            Console.Write(lc.GetLongString("LongString: "));          
+            Console.Write(lc.GetLongString("LongString: ") + "\n");          
             Console.Write("End of procedure\n");
         }
     }
