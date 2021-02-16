@@ -49,44 +49,7 @@ namespace HelloWorld
                 else
                 { 
                 l6 = l6 + 1;
-                }  
-            }
-            else
-            {
-                if (l1 > l2) 
-                {
-                    return;
-                }
-                else
-                {
-                    l1 =l1 + 1; 
-                }
-                if (l2 > l3) 
-                {
-                    return;
-                }
-                else
-                { 
-                l2 = l2 + 1;
-                } 
-                if (l3 > l4) 
-                {
-                    return;
-                }
-                else
-                { 
-                l3 = l3 + 1;
-                }  
-                
-                if (l6 > l7) 
-                {
-                    return;
-                }
-                else
-                { 
-                l6 = l6 + 1;
-                l7 = l7 + 1;
-                }  
+                }                        
             }                      
         }
         public int Sum()
